@@ -1,0 +1,7 @@
+period = 3.06785234
+parameters = [[2456054.8069988564, 2456054.906998856, 'U'], [3.06765234, 3.06805234, 'U'], [0, 0.1, 'U'], [0, 6.283185307179586, 'U'], [0, 0.1, 'N']]
+parameter_names = ['$t_0$', '$Period$', '$eccentricity$', '$\\omega[radian]$', '$d\\omega/dN[radian/epoch]$']
+kind = Precession
+rej_sigma = 5
+sampler = emcee
+sampler_parameters = {'nwalkers': 100, 'nsteps': 2000, 'nburnin': 200}

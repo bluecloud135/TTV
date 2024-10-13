@@ -1,0 +1,49 @@
+kind: Precession
+parameter_names:
+- $t_0$
+- $Period$
+- $eccentricity$
+- $\omega[radian]$
+- $d\omega/dN[radian/epoch]$
+parameters:
+- - !!python/object/apply:numpy.core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      EL1LZ/u8QkE=
+  - !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3IkYdPu8QkE=
+  - U
+- - 3.06765234
+  - 3.06805234
+  - U
+- - 0
+  - 0.1
+  - U
+- - 0
+  - 6.283185307179586
+  - U
+- - 0
+  - 0.1
+  - N
+period: 3.06785234
+rej_sigma: 5
+sampler: emcee
+sampler_parameters:
+  nburnin: 200
+  nsteps: 2000
+  nwalkers: 200

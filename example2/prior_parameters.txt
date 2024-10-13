@@ -1,0 +1,7 @@
+period = 5.72148926
+parameters = [[2456514.3606000002, 2456514.4606, 'U'], [5.72128926, 5.721689260000001, 'U'], [0, 200, 'N']]
+parameter_names = ['$t_0$', '$Period$', '$\\dot{P}[ms/yr]$']
+kind = Pdot
+rej_sigma = 5
+sampler = dynesty
+sampler_parameters = {'nlive': 2000, 'dlogz': 0.0001}
